@@ -7,7 +7,7 @@ int main()
     double d = 2.5;
     char c = 'c';
     
-    printf("Wartosci zmiennych:i=%i, f=%f, d=%lf, c=%c \n", i, f, d, c);
+    printf("Wartosci zmiennych:i=%i, f=%.2f, d=%.2lf, c=%c \n", i, f, d, c);
     scanf("%i", &i); 
     scanf("%f", &f);
     scanf("%lf", &d);
