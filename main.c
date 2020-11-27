@@ -12,6 +12,6 @@ int main()
     scanf("%f", &f);
     scanf("%lf", &d);
     scanf(" %c", &c);
-    printf("\nWartosci zmiennych:i=%i, f=%.1f, d=%.1lf, c=%c", i, f, d, c);
+    printf("\nWartosci zmiennych:i=%i, f=%.2f, d=%.2lf, c=%c", i, f, d, c);
     
 }
